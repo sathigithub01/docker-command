@@ -1,0 +1,1 @@
+docker compose up -d = this command looks for yaml in current folder it reads and excute it

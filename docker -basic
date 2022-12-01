@@ -1,0 +1,13 @@
+docker run -d -p 8080(host):8080(container) nginx (image name)=to run container
+docker ps =to display running container
+docker ps -a =to display all containers
+docker ps -aq =to show only id without tags
+docker rm =to delete stoped container
+docker rm -f (container name or id)= to delete running container
+docker rmi (image name or id) = to delete image
+docker build -t (image name,ver) . = to build image using docker file
+docker exec -it (container id) ash/bash = to enter into container
+docker logs (container id) =to troubleshoot
+docker start (container id) =to start container
+docker stop (container id) =to stop container
+docker tag (source image) (target image) =to remove image name add new name

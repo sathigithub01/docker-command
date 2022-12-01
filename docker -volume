@@ -1,0 +1,5 @@
+docker create volume name =to create a volume
+docker volume list = to display volume
+docker volume inspect (volume name) =it gives mountpath of the volume
+docker run -d -p 8080:8080 -p 5000:5000 -v (volume name):/var/jenkins_home(home location on docker) imagename:lts-jdk11=to run on volume
+using docker volume to share data two container on a single host  
